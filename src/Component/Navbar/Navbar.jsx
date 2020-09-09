@@ -36,6 +36,15 @@ const Navbar = () => {
                   Movie
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  to="/todo-list"
+                  activeClassName="selected"
+                >
+                  TodoList
+                </NavLink>
+              </li>
             </ul>
           </div>
         </nav>
